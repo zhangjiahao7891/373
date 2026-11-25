@@ -1,7 +1,7 @@
 // ============================================================
 //  穷小子打工记 · 联机服务器（零依赖，纯 Node.js）
 //  启动：node server.js
-//  端口：process.env.PORT 或 3000
+//  端口：process.env.PORT 或 8080
 // ============================================================
 'use strict';
 
@@ -9,7 +9,7 @@ const http = require('http');
 const crypto = require('crypto');
 const fs = require('fs');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const GUID = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11';
 const ADMIN_P1 = process.env.ADMIN_P1 || '3256';
 const ADMIN_P2 = process.env.ADMIN_P2 || '1604';
